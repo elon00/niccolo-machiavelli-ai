@@ -1,0 +1,34 @@
+{
+  "name": "niccolo-machiavelli-ai-mcp",
+  "version": "1.0.0",
+  "description": "Niccolò Machiavelli AI Model Context Protocol Server for Autonomous Political Realism, Strategic Game-Theoretic Statecraft & Republican Liberty Protocol",
+  "tools": [
+    {
+      "name": "audit_power_dynamics_and_fortuna",
+      "description": "Analyze institutional power distributions, identify oligarchic capture vulnerabilities, and simulate strategic game-theoretic countermeasures against hostile destabilization",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "governance_structure": { "type": "string" },
+          "factional_tensions": { "type": "string" },
+          "fortuna_shock_scenario": { "type": "string" }
+        },
+        "required": ["governance_structure", "factional_tensions"]
+      }
+    },
+    {
+      "name": "disburse_civic_liberty_bounty",
+      "description": "Trigger automated micro-escrow releases for decentralized constitutional auditing, citizen watchdog institutions, anti-corruption transparency, and popular sovereignty tooling",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
